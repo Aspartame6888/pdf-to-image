@@ -1,0 +1,24 @@
+{
+  "name": "@xieliang6888/pdf-to-image",
+  "version": "1.0.3",
+  "description": "A React component to render PDF pages as images",
+  "main": "src/PdfToImage.js",
+  "scripts": {
+    "build": "babel src -d lib",
+    "prepublishOnly": "npm run build"
+  },
+  "author": "liang.x",
+  "license": "MIT",
+  "dependencies": {
+    "pdfjs-dist": "^2.10.377"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.13.10",
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.3",
+    "@babel/preset-react": "^7.24.7"
+  },
+  "peerDependencies": {
+    "react": "^17.0.0"
+  }
+}
